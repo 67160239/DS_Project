@@ -21,9 +21,10 @@
   - แนวการ์ตูน (Genre) บางประเภท เช่น [Sci-Fi] มีแนวโน้มได้เรตติ้งสูงกว่าปกติ
 
 ## 🤖 3. การพัฒนาโมเดล (Model Development)
-- **Algorithm:** [Random Forest Regressor]
+- **Algorithm:** [Random Forest Regressor, GradientBoosting Regressor]
 - **Preprocessing:** ใช้ `Pipeline` ในการจัดการข้อมูล (Imputer, Scaler, OneHotEncoder)
-- **Evaluation:** - $R^2$ Score: [-0.0187]
+- **Random Forest:** - $R^2$ Score: [-0.0187]
+- **GradientBoosting:** - $R^2$ Score: [-0.0187]
 
 ## 🛠️ 4. การจัดการปัญหาทางเทคนิค (Technical Challenges)
 ในการ Deployment ครั้งนี้ได้พบปัญหา **Version Mismatch** ระหว่าง Google Colab และ Streamlit Cloud:
