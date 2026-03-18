@@ -6,7 +6,7 @@
 ---
 
 ## 🌐 เข้าใช้งานแอปพลิเคชัน
-👉 **[คลิกที่นี่เพื่อเปิดหน้าเว็บ Streamlit](ใส่_URL_ของแอปคุณตรงนี้)**
+👉 **[คลิกที่นี่เพื่อเปิดหน้าเว็บ Streamlit](https://dsproject-ep2sgccopjin5flft7t9ud.streamlit.app/)**
 
 ---
 
