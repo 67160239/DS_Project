@@ -16,16 +16,14 @@
 - **ทำไมต้องใช้ ML?:** เนื่องจากปัจจัยที่มีผลต่อคะแนนมีความซับซ้อนและสัมพันธ์กันในหลายมิติ ML จึงสามารถช่วยหา Pattern จากสถิติในอดีตได้ดีกว่าการคาดเดาด้วยคน
 
 ## 📊 2. ข้อมูลที่ใช้ (Dataset & EDA)
-- **แหล่งที่มา:** [ระบุที่มา เช่น Kaggle / MyAnimeList]
+- **แหล่งที่มา:** [https://www.kaggle.com/datasets/rudrakumargupta/comic-books-dataset-10000-entries]
 - **Insights ที่พบ:**
-  - แนวการ์ตูน (Genre) บางประเภท เช่น [ระบุแนวเรื่อง] มีแนวโน้มได้เรตติ้งสูงกว่าปกติ
-  - จำนวนหน้า (Page Count) ที่เหมาะสมมีความสัมพันธ์กับความพึงพอใจของผู้อ่าน
+  - แนวการ์ตูน (Genre) บางประเภท เช่น [Sci-Fi] มีแนวโน้มได้เรตติ้งสูงกว่าปกติ
 
 ## 🤖 3. การพัฒนาโมเดล (Model Development)
-- **Algorithm:** [ระบุโมเดล เช่น Random Forest Regressor]
+- **Algorithm:** [Random Forest Regressor]
 - **Preprocessing:** ใช้ `Pipeline` ในการจัดการข้อมูล (Imputer, Scaler, OneHotEncoder)
-- **Evaluation:** - $R^2$ Score: [ใส่ตัวเลข]
-  - RMSE: [ใส่ตัวเลข]
+- **Evaluation:** - $R^2$ Score: [-0.0187]
 
 ## 🛠️ 4. การจัดการปัญหาทางเทคนิค (Technical Challenges)
 ในการ Deployment ครั้งนี้ได้พบปัญหา **Version Mismatch** ระหว่าง Google Colab และ Streamlit Cloud:
