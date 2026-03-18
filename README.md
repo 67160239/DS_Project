@@ -24,7 +24,7 @@
 - **Algorithm:** [Random Forest Regressor, GradientBoosting Regressor]
 - **Preprocessing:** ใช้ `Pipeline` ในการจัดการข้อมูล (Imputer, Scaler, OneHotEncoder)
 - **Random Forest:** - $R^2$ Score: [-0.0187]
-- **GradientBoosting:** - $R^2$ Score: [-0.0187]
+- **GradientBoosting:** - $R^2$ Score: [0.0381]
 
 ## 🛠️ 4. การจัดการปัญหาทางเทคนิค (Technical Challenges)
 ในการ Deployment ครั้งนี้ได้พบปัญหา **Version Mismatch** ระหว่าง Google Colab และ Streamlit Cloud:
